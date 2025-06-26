@@ -6,7 +6,6 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-
 }
 
 form {
@@ -36,6 +35,9 @@ h1{
 }
 
 div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -54,6 +56,13 @@ input {
     padding: 0.8em;
     border: 0.5px solid grey;
     border-radius: 5px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 52.2%;
+    cursor: pointer;
 }
 
 a {
